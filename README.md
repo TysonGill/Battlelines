@@ -4,7 +4,7 @@ This is a vb.net game build using native graphics. It is designed to handle play
 
 The moves are shown on screen graphically, such as a fireball exploding, and are also described with text on the right.
 
-Future plans for this include allowing players to play against each other over the internet. It could include things like diffent play mode options, like timed rounds and leaderboard competitions. If anyone feels like contributing by enhancing the graphics or working on asynchronous gameplay, collaboration is welcome.
+Future plans for this include allowing players to play against each other over the internet. It could include diffent play mode options, timed rounds, multiple sessions, and leaderboard competitions. If anyone feels like contributing by enhancing the graphics, balancing, or working on asynchronous gameplay, collaboration is welcome.
 
 Gameplay Screen
 
