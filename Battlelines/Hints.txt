@@ -1,0 +1,151 @@
+* Overview
+- Battle Lines pits two teams of combatant againsts each other in turn-based matches.
+- You can play against the computer or against other players remotely over the Internet.
+- Matches are asynchronous and you can play in multiple matches simultaneously.
+- You can choose between two types of matches, Vanquish and Capture.
+  - In Vanquish matches your goal is to eliminate the enemy team before they eliminate you.
+  - In Capture matches (upcoming), your goal is to destroy the opponent's flag while defending your own.
+
+* Team Setup
+- Each team consists of 10 combatants chosen from any of 6 Classes with 3 Ranks of each.
+- Ranks are restricted to 1 Captain, 3 Lieutenants, and 6 Soldiers. Each may be any class you choose.
+- Available classes include Fighter, Monk, Cleric, Rogue, Ranger, and Wizard.
+- Each class has unique unique abilities and their power increases with higher ranks.
+
+* Match Stages
+1 The Challenger (or the computer) selects their team first and deploys it onto the battlefield.
+2 The Defender has the advantage of seeing the challenger's deployment while selecting their team.
+3 Once the defender selects their team, they Deploy it onto the battlefield.
+4 The match proceeds to alternating turns when the Defender makes their first move.
+5 The match continues with both players taking one turn each round until one prevails.
+
+* Starting a New Game
+- Press the New Game button.
+- Pressing the New Game button terminates any match currently in progress.
+
+* Team Selection
+- After you click New Game, a dialog appears that allows you to assign a class to each rank spot.
+- You can toggle through available classes for each slot by Left-Clicking on that rank button.
+- You can also toggle backwards through the available classes by Right-Clicking on slot.
+- When you are satisfied with all your selections, click Finished to start the match.
+
+* Deployment Phase
+- After Team Selection, you enter the Deployment Phase.
+- At the start of deployment, your selected characters are placed in default locations on the game grid.
+- The currently selected character is always highlighted in yellow and their stats are displayed on the left of the screen.
+- You can select a different character by Left-Clicking on their hex.
+- You can swap character locations by Right-Clicking on another character.
+- You can also move the selected character to an empty hex by Right-Clicking on the target hex.
+- Note that you can only deploy into the first four columns on your side of the battlefield.
+- When you are satisfied with your deployment, click the End Turn button to initiate the match.
+
+* Character Selection
+- Each turn begins with the opportunity for you to select a character to move on that turn.
+- There are no restrictions to how often you can use the same character.
+- To select a different character, simply Left-Click on another ally character.
+- Note that as soon as you move or take any other action, that character selection is locked for that turn.
+
+* Turns and Rounds
+- After commiting to a character, you can take whatever actions are permitted for that character.
+  - You can move, up to the maximum movement allowed for that character.
+  - You can attack with normal melee or ranged attacks up to the maximum attacks allowed for that character.
+  - You can use Special Abilities as long as the requirements are met.
+
+- Once you can or wish to take no further actions, click the End Turn button (or press X) to pass control to your opponent.
+- If you wish, you can also ask the computer to complete the turn for you by pressing the Do Turn button (or by pressing the Space Bar).
+
+* Character Classes
+- Each character class has different strengths and fills a different role on the battlefield.
+  - Hit Points: Fighters have the highest hit points and can survive the most damage.
+  - Movement Range: Monks are highly mobile and have the longest range of movement.
+  - Attack Range: All characters can attack at close range, but Rangers and Wizards excel at long-range attacks.
+  - Attack Damage: Clerics and Wizards can deal magical damage which can bypass certain physical defenses.
+  - Debuffing: Rogues specialize in debilitating their opponents with hit and run techniques.
+
+* Special Abilities
+- Each character class has 3 unique Special Abilities.
+- Most special abilities must be used in place of movement or attacks and have cooldown periods for reuse.
+- Some special abilities like Raise Shield, Evasive Stance, and Defensive Aura buff the character for a period of time.
+- Other special abilities apply a debuff, or detrimental effect, to an opponent that lasts for a period of time.
+- Each round, a character has an increasing chance of losing their buff or overcoming their debuff.
+- Clerics and Monks both have special abilities that can cure debuffs.
+
+- Fighter
+  - Raise Shield reduces the damage fighters take from physical attacks.
+  - Charge is used to quickly close on an opponent, bashing them with their shield. The fighter must lower their shield to charge.
+  - Cleave sweeps their sword through up to 3 nearby targets, striking both friend and foe alike. The fighter must lower their shield to cleave.
+
+- Monk
+  - Evasive Stance allows monks to evade blows, becoming much harder to hit with physical attacks.
+  - Renew restores some of the monk's life and can cure ailments afflicting them.
+  - Disorient is a precise nerve-strike that prevents opponents from using any of their Special Abilities.
+
+- Cleric
+  - Heal mends wounds and can remove detrimental conditions from the cleric or any team mate.
+  - Harm reverses normaly beneficial healing magic to inflict magical damage to an enemy at moderate range.
+  - Revive allows clerics to awaken a comrade who has fallen in battle.
+
+- Rogue
+  - Slow sprays an opponent with a viscous fluid that reduces their attacks per turn.
+  - Blind blows powder into an opponent's eyes making it much harder to land a hit.
+  - Weaken poisons an opponent causing them to do much less damage when they strike.
+
+- Ranger
+  - Hobble is a leg slash that reduces the number of spaces an opponent can move per turn.
+  - Precision Shot is a carefully aimed bow attack has a high chance to hit and does high damage at long range.
+  - Arrow Volley launches a quick barrage of arrows that do physical damage to all characters in an area, friend and foe alike.
+
+- Wizard
+  - Defensive Aura conjures a protective bubble around the wizard that absorbs both physical and magical damage and lasts until it is destroyed.
+  - Teleport instantly transports wizards long distances across the battlefield.
+  - Fireball deals magical fire damage to all characters in an area, be them friend or foe.
+
+* Display Features
+- Each character occupies one hex on the battlefield.
+- The currently active character's hex is highlighted in yellow.
+- Allied characters are displayed in Blue.
+- Enemy characters are displayed in Red.
+- Captain Rank characters are identified with a bold asterisk above their name.
+- Lieutenant Rank characters are identified with a normal asterisk above their name.
+- If a character has a buff active, there is a + icon in the lower left part of their hex.
+- If a character has one or more debuffs active, there is an x icon in the lower right part of their hex.
+- The green progress bar below the Special Ability buttons indicate where they are on their cooldown period.
+- Most buttons, hexes, and other game information also displays a detail popup box when mousing over that object.
+- During gameplay, the mouse cursor will change to indicate if an ability is available be used on a given hex.
+
+* Control Options
+- Left Mouse Button
+  - Select a different active character during the Deployment or Character Selection phases.
+  - Select an empty adjacent hex to move your active character to that location, consuming 1 movement counter.
+  - Attack an enemy with your standard or ranged attack, consuming 1 attack counter.
+  - Apply the selected Special Ability to a qualified target.
+
+- Right Mouse Button
+  - Swap or move characters during the Deployment Phase.
+  - Toggle through available Special Abilities during your turn.
+
+- Keyboard
+  - The 1, 2, 3 keys select the corresponding Special Ability to toggle it between active and inactive.
+  - The X key ends the current turn without taking any further action.
+  - The Space Bar asks the computer to complete the current turn and end it. Note that this is not available in Tournament matches.
+
+* Tips and Tricks
+  - Nothing in Battle Lines is for sure. Everything has a chance of failure. Plan accordingly!
+  - After you are familiar with your special abilities, activate them with Right-Click, it is much faster!
+  - Be sure to consider using special abilities before disabling them by moving and/or attacking.
+  - Don't underestimate the impact of buffs and debuffs in a successful winning strategy.
+  - Fighters, don't use your Raise Shield if you are going to Charge or Cleave next turn. Wait until these are on cooldown.
+
+* Tournament Matches
+- Tournament matches allow you to challenge other ranked players in offical matches.
+- Winning tournament matches increases your overall ranking in the official player standings.
+- Refusing or losing a tournament match decreases your overall ranking in the player standings.
+- Turn timers are enforced in tournament matches.
+
+* Release Notes
+- The current release is the first internal release. Final testing and balancing is not yet complete.
+- Planned features not yet implemented include:
+  - Two-player matches
+  - Capture the Flag matches
+  - Tournament matches
+* End
